@@ -1,0 +1,36 @@
+.header{
+    position: relative;
+}
+
+#menubtn{
+    position: fixed;
+    border-radius: 2px ;
+    padding:2px;
+    right: 10px;
+}
+.sidebar {
+    position: absolute;
+    background: rgb(226, 225, 225);
+    left: -250px;
+    width: 15vw;
+    transition: left 0.3s ease;
+    display: grid;
+    padding: 15px ;
+    gap: 20px;
+    height: 60vh;
+    border: 2px solid black;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar.show {
+    left: 0; 
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+}
+#closebtn{
+    margin-top: 20px;
+}
